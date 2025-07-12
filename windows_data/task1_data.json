@@ -1,0 +1,72 @@
+[
+    {
+        "handler": 66602,
+        "title": "task1_data.json - work - Visual Studio Code",
+        "class": "Chrome_WidgetWin_1",
+        "size": "Size: 1477x797",
+        "time": "2025-07-12 19:01:43.911786"
+    },
+    {
+        "handler": 198278,
+        "title": "Проводник",
+        "class": "CabinetWClass",
+        "size": "Size: 158x26",
+        "time": "2025-07-12 19:01:43.911786"
+    },
+    {
+        "handler": 263754,
+        "title": "ChocoPY - Google Презентации - Google Chrome",
+        "class": "Chrome_WidgetWin_1",
+        "size": "Size: 1477x797",
+        "time": "2025-07-12 19:01:43.911786"
+    },
+    {
+        "handler": 67050,
+        "title": "WhatsApp — Яндекс Браузер",
+        "class": "YandexBrowser_WidgetWin_1",
+        "size": "Size: 158x26",
+        "time": "2025-07-12 19:01:43.913778"
+    },
+    {
+        "handler": 394832,
+        "title": "Telegram",
+        "class": "Qt51517QWindowIcon",
+        "size": "Size: 158x26",
+        "time": "2025-07-12 19:01:43.913778"
+    },
+    {
+        "handler": 66602,
+        "title": "task1_data.json - work - Visual Studio Code",
+        "class": "Chrome_WidgetWin_1",
+        "size": "Size: 1477x797",
+        "time": "2025-07-12 19:02:43.974240"
+    },
+    {
+        "handler": 394832,
+        "title": "Telegram",
+        "class": "Qt51517QWindowIcon",
+        "size": "Size: 1477x797",
+        "time": "2025-07-12 19:02:43.974240"
+    },
+    {
+        "handler": 263754,
+        "title": "ChocoPY - Google Презентации - Google Chrome",
+        "class": "Chrome_WidgetWin_1",
+        "size": "Size: 1477x797",
+        "time": "2025-07-12 19:02:43.974240"
+    },
+    {
+        "handler": 67050,
+        "title": "WhatsApp — Яндекс Браузер",
+        "class": "YandexBrowser_WidgetWin_1",
+        "size": "Size: 158x26",
+        "time": "2025-07-12 19:02:43.977182"
+    },
+    {
+        "handler": 198278,
+        "title": "Проводник",
+        "class": "CabinetWClass",
+        "size": "Size: 158x26",
+        "time": "2025-07-12 19:02:43.977182"
+    }
+]
