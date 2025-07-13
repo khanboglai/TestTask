@@ -1,0 +1,1594 @@
+{
+    "2025-07-13": {
+        "2025-07-13 21:15:57.268240": {
+            "services": [
+                {
+                    "name": "Intel(R) Serial IO I2C Host Controller - 51EA",
+                    "id": "pci\\ven_8086&dev_51ea&subsys_1cf21043&rev_01\\3&11583659&0&aa",
+                    "description": "Intel(R) Serial IO I2C Host Controller - 51EA",
+                    "status": "OK"
+                },
+                {
+                    "name": "C-Media(R) Audio",
+                    "id": "usb\\vid_0b05&pid_6203&mi_00\\6&e200585&0&0000",
+                    "description": "Аудио устройства USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) HID Event Filter",
+                    "id": "acpi\\intc1070\\2&daba3ff&1",
+                    "description": "Intel(R) HID Event Filter",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Iris(R) Xe Graphics",
+                    "id": "pci\\ven_8086&dev_46a6&subsys_133d1043&rev_0c\\3&11583659&0&10",
+                    "description": "Intel(R) Iris(R) Xe Graphics",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Host Bridge/DRAM Registers - 4641",
+                    "id": "pci\\ven_8086&dev_4641&subsys_1cf21043&rev_02\\3&11583659&0&00",
+                    "description": "Intel(R) Host Bridge/DRAM Registers - 4641",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth",
+                    "id": "swd\\radio\\bluetooth_a0e70bafa9c8",
+                    "description": "Универсальное программное устройство",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\asuf1204&col05\\5&259a4efd&0&0004",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимый системный контроллер",
+                    "id": "hid\\converteddevice&col03\\5&11f4a554&0&0002",
+                    "description": "HID-совместимый системный контроллер",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) SPI (flash) Controller - 51A4",
+                    "id": "pci\\ven_8086&dev_51a4&subsys_1cf21043&rev_01\\3&11583659&0&fd",
+                    "description": "Intel(R) SPI (flash) Controller - 51A4",
+                    "status": "OK"
+                },
+                {
+                    "name": "Microsoft Bluetooth Enumerator",
+                    "id": "bth\\ms_bthbrb\\6&17923fb2&0&1",
+                    "description": "Microsoft Bluetooth Enumerator",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) LPC Controller - 5182",
+                    "id": "pci\\ven_8086&dev_5182&subsys_1cf21043&rev_01\\3&11583659&0&f8",
+                    "description": "Intel(R) LPC Controller - 5182",
+                    "status": "OK"
+                },
+                {
+                    "name": "AudioWear Voice",
+                    "id": "bthenum\\{81c2e72a-0591-443e-a1ff-05f988593351}_vid&0002054c_pid&0cd3\\7&2642b9ee&0&94db561860b5_c00000000",
+                    "description": "AudioWear Voice",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth Device (RFCOMM Protocol TDI)",
+                    "id": "bth\\ms_rfcomm\\6&17923fb2&0&0",
+                    "description": "Bluetooth Device (RFCOMM Protocol TDI)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth Device (Personal Area Network)",
+                    "id": "bth\\ms_bthpan\\6&17923fb2&0&2",
+                    "description": "Устройства Bluetooth (личной сети)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Management Engine Interface #1",
+                    "id": "pci\\ven_8086&dev_51e0&subsys_1cf21043&rev_01\\3&11583659&0&b0",
+                    "description": "Intel(R) Management Engine Interface #1",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимая мышь",
+                    "id": "hid\\asuf1204&col01\\5&259a4efd&0&0000",
+                    "description": "HID-совместимая мышь",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Crashlog - 467D",
+                    "id": "pci\\ven_8086&dev_467d&subsys_00000000&rev_01\\3&11583659&0&50",
+                    "description": "Intel(R) Crashlog - 467D",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) GNA Scoring Accelerator module",
+                    "id": "pci\\ven_8086&dev_464f&subsys_1cf21043&rev_02\\3&11583659&0&40",
+                    "description": "Intel(R) GNA Scoring Accelerator module",
+                    "status": "OK"
+                },
+                {
+                    "name": "Microsoft Kernel Debug Network Adapter",
+                    "id": "root\\kdnic\\0000",
+                    "description": "Сетевой адаптер с отладкой ядра (Майкрософт)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001801-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Serial IO I2C Host Controller - 51E8",
+                    "id": "pci\\ven_8086&dev_51e8&subsys_1cf21043&rev_01\\3&11583659&0&a8",
+                    "description": "Intel(R) Serial IO I2C Host Controller - 51E8",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) PEG60 - 464D",
+                    "id": "pci\\ven_8086&dev_464d&subsys_00000000&rev_02\\3&11583659&0&30",
+                    "description": "Intel(R) PEG60 - 464D",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) PEG10 - 460D",
+                    "id": "pci\\ven_8086&dev_460d&subsys_1cf21043&rev_02\\3&11583659&0&08",
+                    "description": "Intel(R) PEG10 - 460D",
+                    "status": "OK"
+                },
+                {
+                    "name": "S24+ пользователя Алексей Hands-Free HF Audio",
+                    "id": "bthhfenum\\bthhfpaudio\\8&23d43215&0&97",
+                    "description": "Звуковое устройство гарнитуры Microsoft Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Ethernet Connection (16) I219-LM",
+                    "id": "pci\\ven_8086&dev_1a1e&subsys_204f1043&rev_01\\3&11583659&0&fe",
+                    "description": "Intel(R) Ethernet Connection (16) I219-LM",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство управления",
+                    "id": "hid\\vid_0b05&pid_6203&mi_03\\7&8d9fcca&0&0000",
+                    "description": "HID-совместимое устройство управления",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Shared SRAM - 51EF",
+                    "id": "pci\\ven_8086&dev_51ef&subsys_00000000&rev_01\\3&11583659&0&a2",
+                    "description": "Intel(R) Shared SRAM - 51EF",
+                    "status": "OK"
+                },
+                {
+                    "name": "WAN Miniport (Network Monitor)",
+                    "id": "swd\\msrras\\ms_ndiswanbh",
+                    "description": "Мини-порт глобальной сети (Сетевой монитор)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) TypeC PCIe - 466E",
+                    "id": "pci\\ven_8086&dev_466e&subsys_1cf21043&rev_02\\3&11583659&0&38",
+                    "description": "Intel(R) TypeC PCIe - 466E",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимая сенсорная панель",
+                    "id": "hid\\asuf1204&col02\\5&259a4efd&0&0001",
+                    "description": "HID-совместимая сенсорная панель",
+                    "status": "OK"
+                },
+                {
+                    "name": "Контроллер High Definition Audio (Microsoft)",
+                    "id": "pci\\ven_8086&dev_51c8&subsys_1cf21043&rev_01\\3&11583659&0&fb",
+                    "description": "Контроллер High Definition Audio (Microsoft)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) SMBus - 51A3",
+                    "id": "pci\\ven_8086&dev_51a3&subsys_1cf21043&rev_01\\3&11583659&0&fc",
+                    "description": "Intel(R) SMBus - 51A3",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA High Definition Audio",
+                    "id": "hdaudio\\func_01&ven_10de&dev_009e&subsys_1043133d&rev_1001\\5&dde043d&0&0001",
+                    "description": "NVIDIA High Definition Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "WH-1000XM3 Hands-Free AG Audio",
+                    "id": "bthhfenum\\bthhfpaudio\\8&3b7d0c93&5&97",
+                    "description": "Звуковое устройство гарнитуры Microsoft Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Расширяемый хост-контроллер Intel(R) USB 3.10 — 1.20 (Майкрософт)",
+                    "id": "pci\\ven_8086&dev_51ed&subsys_201f1043&rev_01\\3&11583659&0&a0",
+                    "description": "xHCI-совместимый хост-контроллер USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Микрофон (C-Media(R) Audio)",
+                    "id": "swd\\mmdevapi\\{0.0.1.00000000}.{e4d69ce9-4828-45ee-a1a5-d6ef1b33b740}",
+                    "description": "Конечная точка Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "Стандартный контроллер NVM Express",
+                    "id": "pci\\ven_144d&dev_a809&subsys_a801144d&rev_00\\4&97a1985&0&0030",
+                    "description": "Стандартный контроллер NVM Express",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{0000fef3-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{0000fcf1-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Клавиатура HID",
+                    "id": "hid\\converteddevice&col01\\5&11f4a554&0&0000",
+                    "description": "Клавиатура HID",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001855-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+                    "id": "root\\unnamed_device\\0000",
+                    "description": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001800-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Расширяемый хост-контроллер Intel(R) USB 3.20 — 1.20 (Майкрософт)",
+                    "id": "pci\\ven_8086&dev_461e&subsys_00000000&rev_02\\3&11583659&0&68",
+                    "description": "xHCI-совместимый хост-контроллер USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Innovation Platform Framework Processor Participant",
+                    "id": "pci\\ven_8086&dev_461d&subsys_1cf21043&rev_02\\3&11583659&0&20",
+                    "description": "Intel(R) Innovation Platform Framework Processor Participant",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Wi-Fi 6 AX201 160MHz",
+                    "id": "pci\\ven_8086&dev_51f0&subsys_00748086&rev_01\\3&11583659&0&a3",
+                    "description": "Intel(R) Wi-Fi 6 AX201 160MHz",
+                    "status": "OK"
+                },
+                {
+                    "name": "Корневой USB-концентратор (USB 3.0)",
+                    "id": "usb\\root_hub30\\4&3af0ece5&0&0",
+                    "description": "Корневой USB-концентратор (USB 3.0)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Устройство HID на шине I2C",
+                    "id": "acpi\\asuf1204\\4&1974793&0",
+                    "description": "Устройство HID на шине I2C",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+                    "id": "pci\\ven_10de&dev_249d&subsys_133d1043&rev_a1\\4&174ede7&0&0008",
+                    "description": "NVIDIA GeForce RTX 3070 Laptop GPU",
+                    "status": "OK"
+                },
+                {
+                    "name": "Перечислитель Bluetooth LE (Майкрософт)",
+                    "id": "bth\\ms_bthle\\6&17923fb2&0&3",
+                    "description": "Перечислитель Bluetooth LE (Майкрософт)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Устройство HID на шине I2C",
+                    "id": "acpi\\ite5570\\1",
+                    "description": "Устройство HID на шине I2C",
+                    "status": "OK"
+                },
+                {
+                    "name": "Динамики (C-Media(R) Audio)",
+                    "id": "swd\\mmdevapi\\{0.0.0.00000000}.{9b881c23-19a0-4b9d-b438-64bcd95308a8}",
+                    "description": "Конечная точка Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "Контроллер High Definition Audio (Microsoft)",
+                    "id": "pci\\ven_10de&dev_228b&subsys_133d1043&rev_a1\\4&174ede7&0&0108",
+                    "description": "Контроллер High Definition Audio (Microsoft)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Элементы управления беспроводным радиоустройством с поддержкой HID",
+                    "id": "hid\\ite5570\\3&23012347&0&0000",
+                    "description": "Элементы управления беспроводным радиоустройством с поддержкой HID",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\asuf1204&col04\\5&259a4efd&0&0003",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
+                    "status": "OK"
+                },
+                {
+                    "name": "AudioWear",
+                    "id": "bthenum\\{f8d1fbe4-7966-4334-8024-ff96c9330e15}_vid&0002054c_pid&0cd3\\7&2642b9ee&0&94db561860b5_c00000000",
+                    "description": "AudioWear",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство управления",
+                    "id": "hid\\converteddevice&col02\\5&11f4a554&0&0001",
+                    "description": "HID-совместимое устройство управления",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{594a34fc-31db-11ea-978f-2e728ce88125}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Wireless Bluetooth(R)",
+                    "id": "usb\\vid_8087&pid_0026\\5&242a2f40&0&10",
+                    "description": "Intel(R) Wireless Bluetooth(R)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Корневой USB-концентратор (USB 3.0)",
+                    "id": "usb\\root_hub30\\4&11bf4672&0&0",
+                    "description": "Корневой USB-концентратор (USB 3.0)",
+                    "status": "OK"
+                }
+            ],
+            "drives": [
+                {
+                    "name": "SAMSUNG MZVLQ1T0HBLB-00B00",
+                    "size": "953 ГБ",
+                    "id": "\\\\.\\PHYSICALDRIVE0"
+                }
+            ],
+            "bluetooth": [
+                {
+                    "name": "WH-1000XM3",
+                    "id": "bthenum\\dev_94db561860b5\\7&2642b9ee&0&bluetoothdevice_94db561860b5",
+                    "description": "Устройство Bluetooth"
+                },
+                {
+                    "name": "S24+ пользователя Алексей",
+                    "id": "bthenum\\dev_5879e0c532d1\\7&2642b9ee&0&bluetoothdevice_5879e0c532d1",
+                    "description": "Устройство Bluetooth"
+                }
+            ],
+            "usb": [
+                {
+                    "name": "Составное USB устройство",
+                    "description": "Составное USB устройство",
+                    "id": "USB\\VID_322E&PID_202C\\5&242A2F40&0&7"
+                },
+                {
+                    "name": "Составное USB устройство",
+                    "description": "Составное USB устройство",
+                    "id": "USB\\VID_0B05&PID_6203\\5&242A2F40&0&9"
+                }
+            ]
+        },
+        "2025-07-13 21:30:15.142043": {
+            "services": [
+                {
+                    "name": "Intel(R) Serial IO I2C Host Controller - 51EA",
+                    "id": "pci\\ven_8086&dev_51ea&subsys_1cf21043&rev_01\\3&11583659&0&aa",
+                    "description": "Intel(R) Serial IO I2C Host Controller - 51EA",
+                    "status": "OK"
+                },
+                {
+                    "name": "C-Media(R) Audio",
+                    "id": "usb\\vid_0b05&pid_6203&mi_00\\6&e200585&0&0000",
+                    "description": "Аудио устройства USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) HID Event Filter",
+                    "id": "acpi\\intc1070\\2&daba3ff&1",
+                    "description": "Intel(R) HID Event Filter",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Iris(R) Xe Graphics",
+                    "id": "pci\\ven_8086&dev_46a6&subsys_133d1043&rev_0c\\3&11583659&0&10",
+                    "description": "Intel(R) Iris(R) Xe Graphics",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Host Bridge/DRAM Registers - 4641",
+                    "id": "pci\\ven_8086&dev_4641&subsys_1cf21043&rev_02\\3&11583659&0&00",
+                    "description": "Intel(R) Host Bridge/DRAM Registers - 4641",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth",
+                    "id": "swd\\radio\\bluetooth_a0e70bafa9c8",
+                    "description": "Универсальное программное устройство",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\asuf1204&col05\\5&259a4efd&0&0004",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимый системный контроллер",
+                    "id": "hid\\converteddevice&col03\\5&11f4a554&0&0002",
+                    "description": "HID-совместимый системный контроллер",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) SPI (flash) Controller - 51A4",
+                    "id": "pci\\ven_8086&dev_51a4&subsys_1cf21043&rev_01\\3&11583659&0&fd",
+                    "description": "Intel(R) SPI (flash) Controller - 51A4",
+                    "status": "OK"
+                },
+                {
+                    "name": "Microsoft Bluetooth Enumerator",
+                    "id": "bth\\ms_bthbrb\\6&17923fb2&0&1",
+                    "description": "Microsoft Bluetooth Enumerator",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) LPC Controller - 5182",
+                    "id": "pci\\ven_8086&dev_5182&subsys_1cf21043&rev_01\\3&11583659&0&f8",
+                    "description": "Intel(R) LPC Controller - 5182",
+                    "status": "OK"
+                },
+                {
+                    "name": "AudioWear Voice",
+                    "id": "bthenum\\{81c2e72a-0591-443e-a1ff-05f988593351}_vid&0002054c_pid&0cd3\\7&2642b9ee&0&94db561860b5_c00000000",
+                    "description": "AudioWear Voice",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth Device (RFCOMM Protocol TDI)",
+                    "id": "bth\\ms_rfcomm\\6&17923fb2&0&0",
+                    "description": "Bluetooth Device (RFCOMM Protocol TDI)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth Device (Personal Area Network)",
+                    "id": "bth\\ms_bthpan\\6&17923fb2&0&2",
+                    "description": "Устройства Bluetooth (личной сети)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Management Engine Interface #1",
+                    "id": "pci\\ven_8086&dev_51e0&subsys_1cf21043&rev_01\\3&11583659&0&b0",
+                    "description": "Intel(R) Management Engine Interface #1",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимая мышь",
+                    "id": "hid\\asuf1204&col01\\5&259a4efd&0&0000",
+                    "description": "HID-совместимая мышь",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Crashlog - 467D",
+                    "id": "pci\\ven_8086&dev_467d&subsys_00000000&rev_01\\3&11583659&0&50",
+                    "description": "Intel(R) Crashlog - 467D",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) GNA Scoring Accelerator module",
+                    "id": "pci\\ven_8086&dev_464f&subsys_1cf21043&rev_02\\3&11583659&0&40",
+                    "description": "Intel(R) GNA Scoring Accelerator module",
+                    "status": "OK"
+                },
+                {
+                    "name": "Microsoft Kernel Debug Network Adapter",
+                    "id": "root\\kdnic\\0000",
+                    "description": "Сетевой адаптер с отладкой ядра (Майкрософт)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001801-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Serial IO I2C Host Controller - 51E8",
+                    "id": "pci\\ven_8086&dev_51e8&subsys_1cf21043&rev_01\\3&11583659&0&a8",
+                    "description": "Intel(R) Serial IO I2C Host Controller - 51E8",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) PEG60 - 464D",
+                    "id": "pci\\ven_8086&dev_464d&subsys_00000000&rev_02\\3&11583659&0&30",
+                    "description": "Intel(R) PEG60 - 464D",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) PEG10 - 460D",
+                    "id": "pci\\ven_8086&dev_460d&subsys_1cf21043&rev_02\\3&11583659&0&08",
+                    "description": "Intel(R) PEG10 - 460D",
+                    "status": "OK"
+                },
+                {
+                    "name": "S24+ пользователя Алексей Hands-Free HF Audio",
+                    "id": "bthhfenum\\bthhfpaudio\\8&23d43215&0&97",
+                    "description": "Звуковое устройство гарнитуры Microsoft Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Ethernet Connection (16) I219-LM",
+                    "id": "pci\\ven_8086&dev_1a1e&subsys_204f1043&rev_01\\3&11583659&0&fe",
+                    "description": "Intel(R) Ethernet Connection (16) I219-LM",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство управления",
+                    "id": "hid\\vid_0b05&pid_6203&mi_03\\7&8d9fcca&0&0000",
+                    "description": "HID-совместимое устройство управления",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Shared SRAM - 51EF",
+                    "id": "pci\\ven_8086&dev_51ef&subsys_00000000&rev_01\\3&11583659&0&a2",
+                    "description": "Intel(R) Shared SRAM - 51EF",
+                    "status": "OK"
+                },
+                {
+                    "name": "WAN Miniport (Network Monitor)",
+                    "id": "swd\\msrras\\ms_ndiswanbh",
+                    "description": "Мини-порт глобальной сети (Сетевой монитор)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) TypeC PCIe - 466E",
+                    "id": "pci\\ven_8086&dev_466e&subsys_1cf21043&rev_02\\3&11583659&0&38",
+                    "description": "Intel(R) TypeC PCIe - 466E",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимая сенсорная панель",
+                    "id": "hid\\asuf1204&col02\\5&259a4efd&0&0001",
+                    "description": "HID-совместимая сенсорная панель",
+                    "status": "OK"
+                },
+                {
+                    "name": "Контроллер High Definition Audio (Microsoft)",
+                    "id": "pci\\ven_8086&dev_51c8&subsys_1cf21043&rev_01\\3&11583659&0&fb",
+                    "description": "Контроллер High Definition Audio (Microsoft)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) SMBus - 51A3",
+                    "id": "pci\\ven_8086&dev_51a3&subsys_1cf21043&rev_01\\3&11583659&0&fc",
+                    "description": "Intel(R) SMBus - 51A3",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA High Definition Audio",
+                    "id": "hdaudio\\func_01&ven_10de&dev_009e&subsys_1043133d&rev_1001\\5&dde043d&0&0001",
+                    "description": "NVIDIA High Definition Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "WH-1000XM3 Hands-Free AG Audio",
+                    "id": "bthhfenum\\bthhfpaudio\\8&3b7d0c93&5&97",
+                    "description": "Звуковое устройство гарнитуры Microsoft Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Расширяемый хост-контроллер Intel(R) USB 3.10 — 1.20 (Майкрософт)",
+                    "id": "pci\\ven_8086&dev_51ed&subsys_201f1043&rev_01\\3&11583659&0&a0",
+                    "description": "xHCI-совместимый хост-контроллер USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Микрофон (C-Media(R) Audio)",
+                    "id": "swd\\mmdevapi\\{0.0.1.00000000}.{e4d69ce9-4828-45ee-a1a5-d6ef1b33b740}",
+                    "description": "Конечная точка Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "Стандартный контроллер NVM Express",
+                    "id": "pci\\ven_144d&dev_a809&subsys_a801144d&rev_00\\4&97a1985&0&0030",
+                    "description": "Стандартный контроллер NVM Express",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{0000fef3-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{0000fcf1-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Клавиатура HID",
+                    "id": "hid\\converteddevice&col01\\5&11f4a554&0&0000",
+                    "description": "Клавиатура HID",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001855-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+                    "id": "root\\unnamed_device\\0000",
+                    "description": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001800-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Расширяемый хост-контроллер Intel(R) USB 3.20 — 1.20 (Майкрософт)",
+                    "id": "pci\\ven_8086&dev_461e&subsys_00000000&rev_02\\3&11583659&0&68",
+                    "description": "xHCI-совместимый хост-контроллер USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Innovation Platform Framework Processor Participant",
+                    "id": "pci\\ven_8086&dev_461d&subsys_1cf21043&rev_02\\3&11583659&0&20",
+                    "description": "Intel(R) Innovation Platform Framework Processor Participant",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Wi-Fi 6 AX201 160MHz",
+                    "id": "pci\\ven_8086&dev_51f0&subsys_00748086&rev_01\\3&11583659&0&a3",
+                    "description": "Intel(R) Wi-Fi 6 AX201 160MHz",
+                    "status": "OK"
+                },
+                {
+                    "name": "Корневой USB-концентратор (USB 3.0)",
+                    "id": "usb\\root_hub30\\4&3af0ece5&0&0",
+                    "description": "Корневой USB-концентратор (USB 3.0)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Устройство HID на шине I2C",
+                    "id": "acpi\\asuf1204\\4&1974793&0",
+                    "description": "Устройство HID на шине I2C",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+                    "id": "pci\\ven_10de&dev_249d&subsys_133d1043&rev_a1\\4&174ede7&0&0008",
+                    "description": "NVIDIA GeForce RTX 3070 Laptop GPU",
+                    "status": "OK"
+                },
+                {
+                    "name": "Перечислитель Bluetooth LE (Майкрософт)",
+                    "id": "bth\\ms_bthle\\6&17923fb2&0&3",
+                    "description": "Перечислитель Bluetooth LE (Майкрософт)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Устройство HID на шине I2C",
+                    "id": "acpi\\ite5570\\1",
+                    "description": "Устройство HID на шине I2C",
+                    "status": "OK"
+                },
+                {
+                    "name": "Динамики (C-Media(R) Audio)",
+                    "id": "swd\\mmdevapi\\{0.0.0.00000000}.{9b881c23-19a0-4b9d-b438-64bcd95308a8}",
+                    "description": "Конечная точка Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "Контроллер High Definition Audio (Microsoft)",
+                    "id": "pci\\ven_10de&dev_228b&subsys_133d1043&rev_a1\\4&174ede7&0&0108",
+                    "description": "Контроллер High Definition Audio (Microsoft)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Элементы управления беспроводным радиоустройством с поддержкой HID",
+                    "id": "hid\\ite5570\\3&23012347&0&0000",
+                    "description": "Элементы управления беспроводным радиоустройством с поддержкой HID",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\asuf1204&col04\\5&259a4efd&0&0003",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
+                    "status": "OK"
+                },
+                {
+                    "name": "AudioWear",
+                    "id": "bthenum\\{f8d1fbe4-7966-4334-8024-ff96c9330e15}_vid&0002054c_pid&0cd3\\7&2642b9ee&0&94db561860b5_c00000000",
+                    "description": "AudioWear",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство управления",
+                    "id": "hid\\converteddevice&col02\\5&11f4a554&0&0001",
+                    "description": "HID-совместимое устройство управления",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{594a34fc-31db-11ea-978f-2e728ce88125}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Wireless Bluetooth(R)",
+                    "id": "usb\\vid_8087&pid_0026\\5&242a2f40&0&10",
+                    "description": "Intel(R) Wireless Bluetooth(R)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Корневой USB-концентратор (USB 3.0)",
+                    "id": "usb\\root_hub30\\4&11bf4672&0&0",
+                    "description": "Корневой USB-концентратор (USB 3.0)",
+                    "status": "OK"
+                }
+            ],
+            "drives": [
+                {
+                    "name": "SAMSUNG MZVLQ1T0HBLB-00B00",
+                    "size": "953 ГБ",
+                    "id": "\\\\.\\PHYSICALDRIVE0"
+                }
+            ],
+            "bluetooth": [
+                {
+                    "name": "WH-1000XM3",
+                    "id": "bthenum\\dev_94db561860b5\\7&2642b9ee&0&bluetoothdevice_94db561860b5",
+                    "description": "Устройство Bluetooth"
+                },
+                {
+                    "name": "S24+ пользователя Алексей",
+                    "id": "bthenum\\dev_5879e0c532d1\\7&2642b9ee&0&bluetoothdevice_5879e0c532d1",
+                    "description": "Устройство Bluetooth"
+                }
+            ],
+            "usb": [
+                {
+                    "name": "Составное USB устройство",
+                    "description": "Составное USB устройство",
+                    "id": "USB\\VID_322E&PID_202C\\5&242A2F40&0&7"
+                },
+                {
+                    "name": "Составное USB устройство",
+                    "description": "Составное USB устройство",
+                    "id": "USB\\VID_0B05&PID_6203\\5&242A2F40&0&9"
+                }
+            ]
+        },
+        "2025-07-13 21:31:15.222360": {
+            "services": [
+                {
+                    "name": "Intel(R) Serial IO I2C Host Controller - 51EA",
+                    "id": "pci\\ven_8086&dev_51ea&subsys_1cf21043&rev_01\\3&11583659&0&aa",
+                    "description": "Intel(R) Serial IO I2C Host Controller - 51EA",
+                    "status": "OK"
+                },
+                {
+                    "name": "C-Media(R) Audio",
+                    "id": "usb\\vid_0b05&pid_6203&mi_00\\6&e200585&0&0000",
+                    "description": "Аудио устройства USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) HID Event Filter",
+                    "id": "acpi\\intc1070\\2&daba3ff&1",
+                    "description": "Intel(R) HID Event Filter",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Iris(R) Xe Graphics",
+                    "id": "pci\\ven_8086&dev_46a6&subsys_133d1043&rev_0c\\3&11583659&0&10",
+                    "description": "Intel(R) Iris(R) Xe Graphics",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Host Bridge/DRAM Registers - 4641",
+                    "id": "pci\\ven_8086&dev_4641&subsys_1cf21043&rev_02\\3&11583659&0&00",
+                    "description": "Intel(R) Host Bridge/DRAM Registers - 4641",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth",
+                    "id": "swd\\radio\\bluetooth_a0e70bafa9c8",
+                    "description": "Универсальное программное устройство",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\asuf1204&col05\\5&259a4efd&0&0004",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимый системный контроллер",
+                    "id": "hid\\converteddevice&col03\\5&11f4a554&0&0002",
+                    "description": "HID-совместимый системный контроллер",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) SPI (flash) Controller - 51A4",
+                    "id": "pci\\ven_8086&dev_51a4&subsys_1cf21043&rev_01\\3&11583659&0&fd",
+                    "description": "Intel(R) SPI (flash) Controller - 51A4",
+                    "status": "OK"
+                },
+                {
+                    "name": "Microsoft Bluetooth Enumerator",
+                    "id": "bth\\ms_bthbrb\\6&17923fb2&0&1",
+                    "description": "Microsoft Bluetooth Enumerator",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) LPC Controller - 5182",
+                    "id": "pci\\ven_8086&dev_5182&subsys_1cf21043&rev_01\\3&11583659&0&f8",
+                    "description": "Intel(R) LPC Controller - 5182",
+                    "status": "OK"
+                },
+                {
+                    "name": "AudioWear Voice",
+                    "id": "bthenum\\{81c2e72a-0591-443e-a1ff-05f988593351}_vid&0002054c_pid&0cd3\\7&2642b9ee&0&94db561860b5_c00000000",
+                    "description": "AudioWear Voice",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth Device (RFCOMM Protocol TDI)",
+                    "id": "bth\\ms_rfcomm\\6&17923fb2&0&0",
+                    "description": "Bluetooth Device (RFCOMM Protocol TDI)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth Device (Personal Area Network)",
+                    "id": "bth\\ms_bthpan\\6&17923fb2&0&2",
+                    "description": "Устройства Bluetooth (личной сети)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Management Engine Interface #1",
+                    "id": "pci\\ven_8086&dev_51e0&subsys_1cf21043&rev_01\\3&11583659&0&b0",
+                    "description": "Intel(R) Management Engine Interface #1",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимая мышь",
+                    "id": "hid\\asuf1204&col01\\5&259a4efd&0&0000",
+                    "description": "HID-совместимая мышь",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Crashlog - 467D",
+                    "id": "pci\\ven_8086&dev_467d&subsys_00000000&rev_01\\3&11583659&0&50",
+                    "description": "Intel(R) Crashlog - 467D",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) GNA Scoring Accelerator module",
+                    "id": "pci\\ven_8086&dev_464f&subsys_1cf21043&rev_02\\3&11583659&0&40",
+                    "description": "Intel(R) GNA Scoring Accelerator module",
+                    "status": "OK"
+                },
+                {
+                    "name": "Microsoft Kernel Debug Network Adapter",
+                    "id": "root\\kdnic\\0000",
+                    "description": "Сетевой адаптер с отладкой ядра (Майкрософт)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001801-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Serial IO I2C Host Controller - 51E8",
+                    "id": "pci\\ven_8086&dev_51e8&subsys_1cf21043&rev_01\\3&11583659&0&a8",
+                    "description": "Intel(R) Serial IO I2C Host Controller - 51E8",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) PEG60 - 464D",
+                    "id": "pci\\ven_8086&dev_464d&subsys_00000000&rev_02\\3&11583659&0&30",
+                    "description": "Intel(R) PEG60 - 464D",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) PEG10 - 460D",
+                    "id": "pci\\ven_8086&dev_460d&subsys_1cf21043&rev_02\\3&11583659&0&08",
+                    "description": "Intel(R) PEG10 - 460D",
+                    "status": "OK"
+                },
+                {
+                    "name": "S24+ пользователя Алексей Hands-Free HF Audio",
+                    "id": "bthhfenum\\bthhfpaudio\\8&23d43215&0&97",
+                    "description": "Звуковое устройство гарнитуры Microsoft Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Ethernet Connection (16) I219-LM",
+                    "id": "pci\\ven_8086&dev_1a1e&subsys_204f1043&rev_01\\3&11583659&0&fe",
+                    "description": "Intel(R) Ethernet Connection (16) I219-LM",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство управления",
+                    "id": "hid\\vid_0b05&pid_6203&mi_03\\7&8d9fcca&0&0000",
+                    "description": "HID-совместимое устройство управления",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Shared SRAM - 51EF",
+                    "id": "pci\\ven_8086&dev_51ef&subsys_00000000&rev_01\\3&11583659&0&a2",
+                    "description": "Intel(R) Shared SRAM - 51EF",
+                    "status": "OK"
+                },
+                {
+                    "name": "WAN Miniport (Network Monitor)",
+                    "id": "swd\\msrras\\ms_ndiswanbh",
+                    "description": "Мини-порт глобальной сети (Сетевой монитор)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) TypeC PCIe - 466E",
+                    "id": "pci\\ven_8086&dev_466e&subsys_1cf21043&rev_02\\3&11583659&0&38",
+                    "description": "Intel(R) TypeC PCIe - 466E",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимая сенсорная панель",
+                    "id": "hid\\asuf1204&col02\\5&259a4efd&0&0001",
+                    "description": "HID-совместимая сенсорная панель",
+                    "status": "OK"
+                },
+                {
+                    "name": "Контроллер High Definition Audio (Microsoft)",
+                    "id": "pci\\ven_8086&dev_51c8&subsys_1cf21043&rev_01\\3&11583659&0&fb",
+                    "description": "Контроллер High Definition Audio (Microsoft)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) SMBus - 51A3",
+                    "id": "pci\\ven_8086&dev_51a3&subsys_1cf21043&rev_01\\3&11583659&0&fc",
+                    "description": "Intel(R) SMBus - 51A3",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA High Definition Audio",
+                    "id": "hdaudio\\func_01&ven_10de&dev_009e&subsys_1043133d&rev_1001\\5&dde043d&0&0001",
+                    "description": "NVIDIA High Definition Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "WH-1000XM3 Hands-Free AG Audio",
+                    "id": "bthhfenum\\bthhfpaudio\\8&3b7d0c93&5&97",
+                    "description": "Звуковое устройство гарнитуры Microsoft Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Расширяемый хост-контроллер Intel(R) USB 3.10 — 1.20 (Майкрософт)",
+                    "id": "pci\\ven_8086&dev_51ed&subsys_201f1043&rev_01\\3&11583659&0&a0",
+                    "description": "xHCI-совместимый хост-контроллер USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Микрофон (C-Media(R) Audio)",
+                    "id": "swd\\mmdevapi\\{0.0.1.00000000}.{e4d69ce9-4828-45ee-a1a5-d6ef1b33b740}",
+                    "description": "Конечная точка Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "Стандартный контроллер NVM Express",
+                    "id": "pci\\ven_144d&dev_a809&subsys_a801144d&rev_00\\4&97a1985&0&0030",
+                    "description": "Стандартный контроллер NVM Express",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{0000fef3-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{0000fcf1-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Клавиатура HID",
+                    "id": "hid\\converteddevice&col01\\5&11f4a554&0&0000",
+                    "description": "Клавиатура HID",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001855-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+                    "id": "root\\unnamed_device\\0000",
+                    "description": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001800-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Расширяемый хост-контроллер Intel(R) USB 3.20 — 1.20 (Майкрософт)",
+                    "id": "pci\\ven_8086&dev_461e&subsys_00000000&rev_02\\3&11583659&0&68",
+                    "description": "xHCI-совместимый хост-контроллер USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Innovation Platform Framework Processor Participant",
+                    "id": "pci\\ven_8086&dev_461d&subsys_1cf21043&rev_02\\3&11583659&0&20",
+                    "description": "Intel(R) Innovation Platform Framework Processor Participant",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Wi-Fi 6 AX201 160MHz",
+                    "id": "pci\\ven_8086&dev_51f0&subsys_00748086&rev_01\\3&11583659&0&a3",
+                    "description": "Intel(R) Wi-Fi 6 AX201 160MHz",
+                    "status": "OK"
+                },
+                {
+                    "name": "Корневой USB-концентратор (USB 3.0)",
+                    "id": "usb\\root_hub30\\4&3af0ece5&0&0",
+                    "description": "Корневой USB-концентратор (USB 3.0)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Устройство HID на шине I2C",
+                    "id": "acpi\\asuf1204\\4&1974793&0",
+                    "description": "Устройство HID на шине I2C",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+                    "id": "pci\\ven_10de&dev_249d&subsys_133d1043&rev_a1\\4&174ede7&0&0008",
+                    "description": "NVIDIA GeForce RTX 3070 Laptop GPU",
+                    "status": "OK"
+                },
+                {
+                    "name": "Перечислитель Bluetooth LE (Майкрософт)",
+                    "id": "bth\\ms_bthle\\6&17923fb2&0&3",
+                    "description": "Перечислитель Bluetooth LE (Майкрософт)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Устройство HID на шине I2C",
+                    "id": "acpi\\ite5570\\1",
+                    "description": "Устройство HID на шине I2C",
+                    "status": "OK"
+                },
+                {
+                    "name": "Динамики (C-Media(R) Audio)",
+                    "id": "swd\\mmdevapi\\{0.0.0.00000000}.{9b881c23-19a0-4b9d-b438-64bcd95308a8}",
+                    "description": "Конечная точка Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "Контроллер High Definition Audio (Microsoft)",
+                    "id": "pci\\ven_10de&dev_228b&subsys_133d1043&rev_a1\\4&174ede7&0&0108",
+                    "description": "Контроллер High Definition Audio (Microsoft)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Элементы управления беспроводным радиоустройством с поддержкой HID",
+                    "id": "hid\\ite5570\\3&23012347&0&0000",
+                    "description": "Элементы управления беспроводным радиоустройством с поддержкой HID",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\asuf1204&col04\\5&259a4efd&0&0003",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
+                    "status": "OK"
+                },
+                {
+                    "name": "AudioWear",
+                    "id": "bthenum\\{f8d1fbe4-7966-4334-8024-ff96c9330e15}_vid&0002054c_pid&0cd3\\7&2642b9ee&0&94db561860b5_c00000000",
+                    "description": "AudioWear",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство управления",
+                    "id": "hid\\converteddevice&col02\\5&11f4a554&0&0001",
+                    "description": "HID-совместимое устройство управления",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{594a34fc-31db-11ea-978f-2e728ce88125}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Wireless Bluetooth(R)",
+                    "id": "usb\\vid_8087&pid_0026\\5&242a2f40&0&10",
+                    "description": "Intel(R) Wireless Bluetooth(R)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Корневой USB-концентратор (USB 3.0)",
+                    "id": "usb\\root_hub30\\4&11bf4672&0&0",
+                    "description": "Корневой USB-концентратор (USB 3.0)",
+                    "status": "OK"
+                }
+            ],
+            "drives": [
+                {
+                    "name": "SAMSUNG MZVLQ1T0HBLB-00B00",
+                    "size": "953 ГБ",
+                    "id": "\\\\.\\PHYSICALDRIVE0"
+                },
+                {
+                    "name": "JetFlash Transcend 16GB USB Device",
+                    "size": "14 ГБ",
+                    "id": "\\\\.\\PHYSICALDRIVE1"
+                }
+            ],
+            "bluetooth": [
+                {
+                    "name": "WH-1000XM3",
+                    "id": "bthenum\\dev_94db561860b5\\7&2642b9ee&0&bluetoothdevice_94db561860b5",
+                    "description": "Устройство Bluetooth"
+                },
+                {
+                    "name": "S24+ пользователя Алексей",
+                    "id": "bthenum\\dev_5879e0c532d1\\7&2642b9ee&0&bluetoothdevice_5879e0c532d1",
+                    "description": "Устройство Bluetooth"
+                }
+            ],
+            "usb": [
+                {
+                    "name": "Составное USB устройство",
+                    "description": "Составное USB устройство",
+                    "id": "USB\\VID_322E&PID_202C\\5&242A2F40&0&7"
+                },
+                {
+                    "name": "Составное USB устройство",
+                    "description": "Составное USB устройство",
+                    "id": "USB\\VID_0B05&PID_6203\\5&242A2F40&0&9"
+                },
+                {
+                    "name": "Запоминающее устройство для USB",
+                    "description": "Запоминающее устройство для USB",
+                    "id": "USB\\VID_8564&PID_1000\\1A172C0A"
+                }
+            ]
+        },
+        "2025-07-13 21:39:36.835643": {
+            "services": [
+                {
+                    "name": "Intel(R) Serial IO I2C Host Controller - 51EA",
+                    "id": "pci\\ven_8086&dev_51ea&subsys_1cf21043&rev_01\\3&11583659&0&aa",
+                    "description": "Intel(R) Serial IO I2C Host Controller - 51EA",
+                    "status": "OK"
+                },
+                {
+                    "name": "C-Media(R) Audio",
+                    "id": "usb\\vid_0b05&pid_6203&mi_00\\6&e200585&0&0000",
+                    "description": "Аудио устройства USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) HID Event Filter",
+                    "id": "acpi\\intc1070\\2&daba3ff&1",
+                    "description": "Intel(R) HID Event Filter",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Iris(R) Xe Graphics",
+                    "id": "pci\\ven_8086&dev_46a6&subsys_133d1043&rev_0c\\3&11583659&0&10",
+                    "description": "Intel(R) Iris(R) Xe Graphics",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Host Bridge/DRAM Registers - 4641",
+                    "id": "pci\\ven_8086&dev_4641&subsys_1cf21043&rev_02\\3&11583659&0&00",
+                    "description": "Intel(R) Host Bridge/DRAM Registers - 4641",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth",
+                    "id": "swd\\radio\\bluetooth_a0e70bafa9c8",
+                    "description": "Универсальное программное устройство",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\asuf1204&col05\\5&259a4efd&0&0004",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимый системный контроллер",
+                    "id": "hid\\converteddevice&col03\\5&11f4a554&0&0002",
+                    "description": "HID-совместимый системный контроллер",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) SPI (flash) Controller - 51A4",
+                    "id": "pci\\ven_8086&dev_51a4&subsys_1cf21043&rev_01\\3&11583659&0&fd",
+                    "description": "Intel(R) SPI (flash) Controller - 51A4",
+                    "status": "OK"
+                },
+                {
+                    "name": "Microsoft Bluetooth Enumerator",
+                    "id": "bth\\ms_bthbrb\\6&17923fb2&0&1",
+                    "description": "Microsoft Bluetooth Enumerator",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) LPC Controller - 5182",
+                    "id": "pci\\ven_8086&dev_5182&subsys_1cf21043&rev_01\\3&11583659&0&f8",
+                    "description": "Intel(R) LPC Controller - 5182",
+                    "status": "OK"
+                },
+                {
+                    "name": "AudioWear Voice",
+                    "id": "bthenum\\{81c2e72a-0591-443e-a1ff-05f988593351}_vid&0002054c_pid&0cd3\\7&2642b9ee&0&94db561860b5_c00000000",
+                    "description": "AudioWear Voice",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth Device (RFCOMM Protocol TDI)",
+                    "id": "bth\\ms_rfcomm\\6&17923fb2&0&0",
+                    "description": "Bluetooth Device (RFCOMM Protocol TDI)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Bluetooth Device (Personal Area Network)",
+                    "id": "bth\\ms_bthpan\\6&17923fb2&0&2",
+                    "description": "Устройства Bluetooth (личной сети)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Management Engine Interface #1",
+                    "id": "pci\\ven_8086&dev_51e0&subsys_1cf21043&rev_01\\3&11583659&0&b0",
+                    "description": "Intel(R) Management Engine Interface #1",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимая мышь",
+                    "id": "hid\\asuf1204&col01\\5&259a4efd&0&0000",
+                    "description": "HID-совместимая мышь",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Crashlog - 467D",
+                    "id": "pci\\ven_8086&dev_467d&subsys_00000000&rev_01\\3&11583659&0&50",
+                    "description": "Intel(R) Crashlog - 467D",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) GNA Scoring Accelerator module",
+                    "id": "pci\\ven_8086&dev_464f&subsys_1cf21043&rev_02\\3&11583659&0&40",
+                    "description": "Intel(R) GNA Scoring Accelerator module",
+                    "status": "OK"
+                },
+                {
+                    "name": "Microsoft Kernel Debug Network Adapter",
+                    "id": "root\\kdnic\\0000",
+                    "description": "Сетевой адаптер с отладкой ядра (Майкрософт)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001801-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Serial IO I2C Host Controller - 51E8",
+                    "id": "pci\\ven_8086&dev_51e8&subsys_1cf21043&rev_01\\3&11583659&0&a8",
+                    "description": "Intel(R) Serial IO I2C Host Controller - 51E8",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) PEG60 - 464D",
+                    "id": "pci\\ven_8086&dev_464d&subsys_00000000&rev_02\\3&11583659&0&30",
+                    "description": "Intel(R) PEG60 - 464D",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) PEG10 - 460D",
+                    "id": "pci\\ven_8086&dev_460d&subsys_1cf21043&rev_02\\3&11583659&0&08",
+                    "description": "Intel(R) PEG10 - 460D",
+                    "status": "OK"
+                },
+                {
+                    "name": "S24+ пользователя Алексей Hands-Free HF Audio",
+                    "id": "bthhfenum\\bthhfpaudio\\8&23d43215&0&97",
+                    "description": "Звуковое устройство гарнитуры Microsoft Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Ethernet Connection (16) I219-LM",
+                    "id": "pci\\ven_8086&dev_1a1e&subsys_204f1043&rev_01\\3&11583659&0&fe",
+                    "description": "Intel(R) Ethernet Connection (16) I219-LM",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство управления",
+                    "id": "hid\\vid_0b05&pid_6203&mi_03\\7&8d9fcca&0&0000",
+                    "description": "HID-совместимое устройство управления",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Shared SRAM - 51EF",
+                    "id": "pci\\ven_8086&dev_51ef&subsys_00000000&rev_01\\3&11583659&0&a2",
+                    "description": "Intel(R) Shared SRAM - 51EF",
+                    "status": "OK"
+                },
+                {
+                    "name": "WAN Miniport (Network Monitor)",
+                    "id": "swd\\msrras\\ms_ndiswanbh",
+                    "description": "Мини-порт глобальной сети (Сетевой монитор)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) TypeC PCIe - 466E",
+                    "id": "pci\\ven_8086&dev_466e&subsys_1cf21043&rev_02\\3&11583659&0&38",
+                    "description": "Intel(R) TypeC PCIe - 466E",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимая сенсорная панель",
+                    "id": "hid\\asuf1204&col02\\5&259a4efd&0&0001",
+                    "description": "HID-совместимая сенсорная панель",
+                    "status": "OK"
+                },
+                {
+                    "name": "Контроллер High Definition Audio (Microsoft)",
+                    "id": "pci\\ven_8086&dev_51c8&subsys_1cf21043&rev_01\\3&11583659&0&fb",
+                    "description": "Контроллер High Definition Audio (Microsoft)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) SMBus - 51A3",
+                    "id": "pci\\ven_8086&dev_51a3&subsys_1cf21043&rev_01\\3&11583659&0&fc",
+                    "description": "Intel(R) SMBus - 51A3",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA High Definition Audio",
+                    "id": "hdaudio\\func_01&ven_10de&dev_009e&subsys_1043133d&rev_1001\\5&dde043d&0&0001",
+                    "description": "NVIDIA High Definition Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "WH-1000XM3 Hands-Free AG Audio",
+                    "id": "bthhfenum\\bthhfpaudio\\8&3b7d0c93&5&97",
+                    "description": "Звуковое устройство гарнитуры Microsoft Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Расширяемый хост-контроллер Intel(R) USB 3.10 — 1.20 (Майкрософт)",
+                    "id": "pci\\ven_8086&dev_51ed&subsys_201f1043&rev_01\\3&11583659&0&a0",
+                    "description": "xHCI-совместимый хост-контроллер USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Микрофон (C-Media(R) Audio)",
+                    "id": "swd\\mmdevapi\\{0.0.1.00000000}.{e4d69ce9-4828-45ee-a1a5-d6ef1b33b740}",
+                    "description": "Конечная точка Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "Стандартный контроллер NVM Express",
+                    "id": "pci\\ven_144d&dev_a809&subsys_a801144d&rev_00\\4&97a1985&0&0030",
+                    "description": "Стандартный контроллер NVM Express",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{0000fef3-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{0000fcf1-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Клавиатура HID",
+                    "id": "hid\\converteddevice&col01\\5&11f4a554&0&0000",
+                    "description": "Клавиатура HID",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001855-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+                    "id": "root\\unnamed_device\\0000",
+                    "description": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{00001800-0000-1000-8000-00805f9b34fb}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Расширяемый хост-контроллер Intel(R) USB 3.20 — 1.20 (Майкрософт)",
+                    "id": "pci\\ven_8086&dev_461e&subsys_00000000&rev_02\\3&11583659&0&68",
+                    "description": "xHCI-совместимый хост-контроллер USB",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Innovation Platform Framework Processor Participant",
+                    "id": "pci\\ven_8086&dev_461d&subsys_1cf21043&rev_02\\3&11583659&0&20",
+                    "description": "Intel(R) Innovation Platform Framework Processor Participant",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Wi-Fi 6 AX201 160MHz",
+                    "id": "pci\\ven_8086&dev_51f0&subsys_00748086&rev_01\\3&11583659&0&a3",
+                    "description": "Intel(R) Wi-Fi 6 AX201 160MHz",
+                    "status": "OK"
+                },
+                {
+                    "name": "Корневой USB-концентратор (USB 3.0)",
+                    "id": "usb\\root_hub30\\4&3af0ece5&0&0",
+                    "description": "Корневой USB-концентратор (USB 3.0)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Устройство HID на шине I2C",
+                    "id": "acpi\\asuf1204\\4&1974793&0",
+                    "description": "Устройство HID на шине I2C",
+                    "status": "OK"
+                },
+                {
+                    "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+                    "id": "pci\\ven_10de&dev_249d&subsys_133d1043&rev_a1\\4&174ede7&0&0008",
+                    "description": "NVIDIA GeForce RTX 3070 Laptop GPU",
+                    "status": "OK"
+                },
+                {
+                    "name": "Перечислитель Bluetooth LE (Майкрософт)",
+                    "id": "bth\\ms_bthle\\6&17923fb2&0&3",
+                    "description": "Перечислитель Bluetooth LE (Майкрософт)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Устройство HID на шине I2C",
+                    "id": "acpi\\ite5570\\1",
+                    "description": "Устройство HID на шине I2C",
+                    "status": "OK"
+                },
+                {
+                    "name": "Динамики (C-Media(R) Audio)",
+                    "id": "swd\\mmdevapi\\{0.0.0.00000000}.{9b881c23-19a0-4b9d-b438-64bcd95308a8}",
+                    "description": "Конечная точка Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "Контроллер High Definition Audio (Microsoft)",
+                    "id": "pci\\ven_10de&dev_228b&subsys_133d1043&rev_a1\\4&174ede7&0&0108",
+                    "description": "Контроллер High Definition Audio (Microsoft)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Элементы управления беспроводным радиоустройством с поддержкой HID",
+                    "id": "hid\\ite5570\\3&23012347&0&0000",
+                    "description": "Элементы управления беспроводным радиоустройством с поддержкой HID",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\asuf1204&col04\\5&259a4efd&0&0003",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
+                    "status": "OK"
+                },
+                {
+                    "name": "AudioWear",
+                    "id": "bthenum\\{f8d1fbe4-7966-4334-8024-ff96c9330e15}_vid&0002054c_pid&0cd3\\7&2642b9ee&0&94db561860b5_c00000000",
+                    "description": "AudioWear",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство управления",
+                    "id": "hid\\converteddevice&col02\\5&11f4a554&0&0001",
+                    "description": "HID-совместимое устройство управления",
+                    "status": "OK"
+                },
+                {
+                    "name": "Периферийное устройство Bluetooth",
+                    "id": "bthenum\\{594a34fc-31db-11ea-978f-2e728ce88125}_vid&00010075_pid&0100\\7&2642b9ee&0&5879e0c532d1_c00000000",
+                    "description": "Периферийное устройство Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "Intel(R) Wireless Bluetooth(R)",
+                    "id": "usb\\vid_8087&pid_0026\\5&242a2f40&0&10",
+                    "description": "Intel(R) Wireless Bluetooth(R)",
+                    "status": "OK"
+                },
+                {
+                    "name": "Корневой USB-концентратор (USB 3.0)",
+                    "id": "usb\\root_hub30\\4&11bf4672&0&0",
+                    "description": "Корневой USB-концентратор (USB 3.0)",
+                    "status": "OK"
+                }
+            ],
+            "drives": [
+                {
+                    "name": "SAMSUNG MZVLQ1T0HBLB-00B00",
+                    "size": "953 ГБ",
+                    "id": "\\\\.\\PHYSICALDRIVE0"
+                }
+            ],
+            "bluetooth": [
+                {
+                    "name": "WH-1000XM3",
+                    "id": "bthenum\\dev_94db561860b5\\7&2642b9ee&0&bluetoothdevice_94db561860b5",
+                    "description": "Устройство Bluetooth"
+                },
+                {
+                    "name": "S24+ пользователя Алексей",
+                    "id": "bthenum\\dev_5879e0c532d1\\7&2642b9ee&0&bluetoothdevice_5879e0c532d1",
+                    "description": "Устройство Bluetooth"
+                }
+            ],
+            "usb": [
+                {
+                    "name": "Составное USB устройство",
+                    "description": "Составное USB устройство",
+                    "id": "USB\\VID_322E&PID_202C\\5&242A2F40&0&7"
+                },
+                {
+                    "name": "Составное USB устройство",
+                    "description": "Составное USB устройство",
+                    "id": "USB\\VID_0B05&PID_6203\\5&242A2F40&0&9"
+                }
+            ]
+        }
+    }
+}
