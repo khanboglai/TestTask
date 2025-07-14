@@ -3,7 +3,7 @@ import json
 import win32com.client as dm
 from datetime import datetime, date
 import schedule
-from task1 import load_config
+from common import load_config
 import keyboard
 import time
 
@@ -123,6 +123,7 @@ def get_devices_info(config):
     """ Функция для получения информации о подключенных устройствах """
 
     def check_key(key: str, dictionary: dict) -> None:
+        """ Функция для проверки и создания ключа в словаре """
         if key not in dictionary:
             dictionary[key] = []
     

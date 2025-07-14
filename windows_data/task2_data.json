@@ -1194,8 +1194,10 @@
                     "id": "USB\\VID_8564&PID_1000\\1A172C0A"
                 }
             ]
-        },
-        "2025-07-13 21:39:36.835643": {
+        }
+    },
+    "2025-07-14": {
+        "2025-07-14 15:24:16.699887": {
             "services": [
                 {
                     "name": "Intel(R) Serial IO I2C Host Controller - 51EA",
@@ -1330,6 +1332,12 @@
                     "status": "OK"
                 },
                 {
+                    "name": "Клавиатура HID",
+                    "id": "hid\\vid_04f2&pid_0860&mi_00\\7&2f2ba0cf&0&0000",
+                    "description": "Клавиатура HID",
+                    "status": "OK"
+                },
+                {
                     "name": "Intel(R) PEG10 - 460D",
                     "id": "pci\\ven_8086&dev_460d&subsys_1cf21043&rev_02\\3&11583659&0&08",
                     "description": "Intel(R) PEG10 - 460D",
@@ -1396,9 +1404,21 @@
                     "status": "OK"
                 },
                 {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\vid_04f2&pid_0860&mi_01&col07\\7&b54630d&0&0006",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
+                    "status": "OK"
+                },
+                {
                     "name": "WH-1000XM3 Hands-Free AG Audio",
                     "id": "bthhfenum\\bthhfpaudio\\8&3b7d0c93&5&97",
                     "description": "Звуковое устройство гарнитуры Microsoft Bluetooth",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\vid_04f2&pid_0860&mi_01&col06\\7&b54630d&0&0005",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
                     "status": "OK"
                 },
                 {
@@ -1411,6 +1431,18 @@
                     "name": "Микрофон (C-Media(R) Audio)",
                     "id": "swd\\mmdevapi\\{0.0.1.00000000}.{e4d69ce9-4828-45ee-a1a5-d6ef1b33b740}",
                     "description": "Конечная точка Audio",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\vid_04f2&pid_0860&mi_01&col05\\7&b54630d&0&0004",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимая мышь",
+                    "id": "hid\\vid_04f2&pid_0860&mi_01&col04\\7&b54630d&0&0003",
+                    "description": "HID-совместимая мышь",
                     "status": "OK"
                 },
                 {
@@ -1432,9 +1464,21 @@
                     "status": "OK"
                 },
                 {
+                    "name": "HID-совместимое устройство управления",
+                    "id": "hid\\vid_04f2&pid_0860&mi_01&col03\\7&b54630d&0&0002",
+                    "description": "HID-совместимое устройство управления",
+                    "status": "OK"
+                },
+                {
                     "name": "Клавиатура HID",
                     "id": "hid\\converteddevice&col01\\5&11f4a554&0&0000",
                     "description": "Клавиатура HID",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимое устройство, определенное поставщиком",
+                    "id": "hid\\vid_04f2&pid_0860&mi_01&col02\\7&b54630d&0&0001",
+                    "description": "HID-совместимое устройство, определенное поставщиком",
                     "status": "OK"
                 },
                 {
@@ -1447,6 +1491,12 @@
                     "name": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
                     "id": "root\\unnamed_device\\0000",
                     "description": "NVIDIA Virtual Audio Device (Wave Extensible) (WDM)",
+                    "status": "OK"
+                },
+                {
+                    "name": "HID-совместимый системный контроллер",
+                    "id": "hid\\vid_04f2&pid_0860&mi_01&col01\\7&b54630d&0&0000",
+                    "description": "HID-совместимый системный контроллер",
                     "status": "OK"
                 },
                 {
@@ -1582,6 +1632,11 @@
                     "name": "Составное USB устройство",
                     "description": "Составное USB устройство",
                     "id": "USB\\VID_322E&PID_202C\\5&242A2F40&0&7"
+                },
+                {
+                    "name": "Составное USB устройство",
+                    "description": "Составное USB устройство",
+                    "id": "USB\\VID_04F2&PID_0860\\5&242A2F40&0&2"
                 },
                 {
                     "name": "Составное USB устройство",
