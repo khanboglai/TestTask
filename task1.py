@@ -4,7 +4,7 @@ import time
 import win32gui
 import schedule
 import keyboard
-from datetime import datetime
+from datetime import datetime, date
 from common import load_config
 
 
@@ -16,10 +16,10 @@ def get_window_info(hwnd, data):
     # можно добавить классы окон, которые нужно искоючить из рассмотрения
     # в текущей реализации собираем данные только об окнах, которые открывал пользователь
     system_classes = [
-    "Windows.UI.Core.CoreWindow",  # Системные окна
-    "CEF-OSC-WIDGET",              # Оверлей NVIDIA
-    "Progman",                     # Program Manager
-    "ApplicationFrameWindow",
+        "Windows.UI.Core.CoreWindow",  # Системные окна
+        "CEF-OSC-WIDGET",              # Оверлей NVIDIA
+        "Progman",                     # Program Manager
+        "ApplicationFrameWindow",
     ]
 
     if class_name in system_classes:
@@ -42,10 +42,7 @@ def get_window_info(hwnd, data):
             "time": current_time
         }
 
-        if "data" not in data:
-            data["data"] = []
-
-        data["data"].append(window_data)
+        data.append(window_data)
     return True
 
 
@@ -60,12 +57,23 @@ def system_windows_info(config) -> None:
         data = {}
         if os.path.exists(file_path):
             with open(file_path, 'r', encoding='utf-8') as file:
-                data["data"] = json.load(file)
+                data = json.load(file)
 
-        win32gui.EnumWindows(get_window_info, data)
+        # проверка и создание ключа даты
+        current_date = str(date.today())
+        if current_date not in data:
+            data[current_date] = {}
+
+        # проверка и создание ключа времени
+        current_time = str(datetime.now())
+        if current_time not in data[current_date]:
+            data[current_date][current_time] = []
+
+        data_by_time = data[current_date][current_time]
+        win32gui.EnumWindows(get_window_info, data_by_time)
 
         with open(file_path, 'w', encoding='utf-8') as file:
-            json.dump(data["data"], file, indent=4, ensure_ascii=False)
+            json.dump(data, file, indent=4, ensure_ascii=False)
 
         print(f"Данные сохранены в файл {file_path}")
     except Exception as e:
