@@ -38,8 +38,7 @@ def get_window_info(hwnd, data):
             "handler": hwnd,
             "title": window_title,
             "class": window_class,
-            "size": f"Size: {width}x{height}",
-            "time": current_time
+            "size": f"Size: {width}x{height}"
         }
 
         data.append(window_data)
