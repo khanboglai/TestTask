@@ -8,14 +8,8 @@ import keyboard
 from datetime import datetime, date
 from common import load_config
 import psutil
-from process_manager import ProcessManager
-import subprocess
-import threading
+from set_monitoring import check_and_set_monitoring
 
-
-BROWSERS = ["browser.exe", "msedge.exe"]
-
-# "chrome.exe"
 
 def get_window_info(hwnd, data):
     """ Callback функция для получения информации об окне """
@@ -34,7 +28,6 @@ def get_window_info(hwnd, data):
     if class_name in system_classes:
         return True # переход к следующему окну
 
-    current_time = str(datetime.now())
     window_title = win32gui.GetWindowText(hwnd)
 
     if win32gui.IsWindowVisible(hwnd) and window_title:
@@ -42,7 +35,6 @@ def get_window_info(hwnd, data):
         left, top, right, bottom = win32gui.GetWindowRect(hwnd)
         width = right - left
         height = bottom - top
-
 
         _, pid = win32process.GetWindowThreadProcessId(hwnd)
         process = psutil.Process(pid)
@@ -62,48 +54,7 @@ def get_window_info(hwnd, data):
     return True
 
 
-
-
-
-
-def run_mitmproxy():
-    """Запускает mitmproxy в отдельном процессе."""
-    return subprocess.Popen(["python", "traffic_monitor.py"],
-        # stdout=subprocess.PIPE,
-        # stderr=subprocess.PIPE,
-        stdin=subprocess.PIPE,
-        # creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0)
-    )
-
-def monitor_browsers(mitm_state):
-    """Отслеживает активные браузеры и завершает mitmproxy при их закрытии."""
-    while mitm_state["active"]:
-        current_pids = mitm_state["last_pids"].copy()
-
-        # Проверяем, какие процессы всё ещё живы
-        alive_pids = [
-            pid for pid in current_pids
-            if psutil.pid_exists(pid) and psutil.Process(pid).name().lower() in BROWSERS
-        ]
-
-        if not alive_pids:
-            print("Нет активных браузеров. Останавливаем mitmproxy...")
-            proc = mitm_state["process"]
-            mitm_state["active"] = False
-            mitm_state["last_pids"].clear()
-            if proc:
-                proc.terminate()
-                try:
-                    proc.wait(timeout=5)
-                except subprocess.TimeoutExpired:
-                    proc.kill()
-                print(f"Mitmporxy остановлен! PID: {proc.pid}")
-            break
-
-        time.sleep(2)
-
-
-mitm_state = {
+mitm_state = { # фиксируем состояние между вызовами функции
     "process": None,
     "active": False,
     "last_pids": set()
@@ -111,13 +62,17 @@ mitm_state = {
 
 
 def system_windows_info(config) -> None:
-    global mitm_state  # <-- Доступ к глобальному состоянию
+    """ Функция для получения информации об окнах и о запросаз браузеров """
+
+    global mitm_state # так как меняем, указываем global
 
     try:
+        # создаем диеркторию, если нужно
         output_dir = config.get('Settings', 'output_dir')
         os.makedirs(output_dir, exist_ok=True)
         file_path = os.path.join(output_dir, "task4_data.json")
 
+        # если файл существует, то берем данные из него, иначе пишем с нуля
         if os.path.exists(file_path):
             try:
                 with open(file_path, 'r', encoding='utf-8') as file:
@@ -128,6 +83,7 @@ def system_windows_info(config) -> None:
         else:
             data = {}
 
+        # достаем текущую дату и время
         current_date = str(date.today())
         if current_date not in data:
             data[current_date] = {}
@@ -136,44 +92,12 @@ def system_windows_info(config) -> None:
         if current_time not in data[current_date]:
             data[current_date][current_time] = []
 
+        # получаем данные об открытых окнах
         data_by_time = data[current_date][current_time]
         win32gui.EnumWindows(get_window_info, data_by_time)
 
-        active_browser_pids = list({
-            item["pid"] for item in data_by_time 
-            if item.get("exe_name", "").lower() in BROWSERS
-        })
-
-        # Проверяем, какие PID всё ещё активны
-        active_browser_pids = [
-            pid for pid in active_browser_pids
-            if psutil.pid_exists(pid) and psutil.Process(pid).name().lower() in BROWSERS
-        ]
-
-        # Если есть браузеры и MITM не запущен — запускаем
-        if active_browser_pids and not mitm_state["active"]:
-            print("Запускаем mitmproxy...")
-            mitm_state["process"] = run_mitmproxy()
-            mitm_state["active"] = True
-            mitm_state["last_pids"] = set(active_browser_pids)
-
-            # Запускаем мониторинг в отдельном потоке
-            monitor_thread = threading.Thread(
-                target=monitor_browsers,
-                args=(mitm_state,),
-                daemon=True
-            )
-            monitor_thread.start()
-
-        elif active_browser_pids and mitm_state["active"]:
-            # Если процессы браузеров изменились — обновляем список
-            new_pids = set(active_browser_pids)
-            if new_pids != mitm_state["last_pids"]:
-                print(f"Обнаружены изменения в браузерах: {new_pids - mitm_state['last_pids']}")
-                mitm_state["last_pids"] = new_pids
-
-        elif not active_browser_pids and mitm_state["active"]:
-            print("Браузеры закрыты. Ожидание завершения mitmproxy...")
+        # проверяем и запускаем мониторинг при наличии браузеров
+        check_and_set_monitoring(mitm_state=mitm_state, data_by_time=data_by_time)
 
         # Сохраняем данные
         with open(file_path, 'w', encoding='utf-8') as file:

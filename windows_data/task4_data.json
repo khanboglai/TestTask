@@ -1,0 +1,140 @@
+{
+    "2025-07-17": {
+        "2025-07-17 13:39:40.952880": [
+            {
+                "handler": 66698,
+                "title": "traffic.json - work - Visual Studio Code",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 1452,
+                "process_name": "Code.exe",
+                "exe_name": "code.exe"
+            },
+            {
+                "handler": 721666,
+                "title": "ChocoPY - Google Презентации - Google Chrome",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 17988,
+                "process_name": "chrome.exe",
+                "exe_name": "chrome.exe"
+            },
+            {
+                "handler": 132482,
+                "title": "Глобальные переменные в Python: как использовать на примерах global — Яндекс Браузер",
+                "class": "YandexBrowser_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 21664,
+                "process_name": "browser.exe",
+                "exe_name": "browser.exe"
+            }
+        ],
+        "2025-07-17 13:40:40.987477": [
+            {
+                "handler": 66698,
+                "title": "traffic.json - work - Visual Studio Code",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 1452,
+                "process_name": "Code.exe",
+                "exe_name": "code.exe"
+            },
+            {
+                "handler": 721666,
+                "title": "ChocoPY - Google Презентации - Google Chrome",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 17988,
+                "process_name": "chrome.exe",
+                "exe_name": "chrome.exe"
+            },
+            {
+                "handler": 132482,
+                "title": "Карта Сарова с улицами и номерами домов — Яндекс Карты — Яндекс Браузер",
+                "class": "YandexBrowser_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 21664,
+                "process_name": "browser.exe",
+                "exe_name": "browser.exe"
+            }
+        ],
+        "2025-07-17 13:41:40.997778": [
+            {
+                "handler": 66698,
+                "title": "task4_data.json - work - Visual Studio Code",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 1452,
+                "process_name": "Code.exe",
+                "exe_name": "code.exe"
+            },
+            {
+                "handler": 721666,
+                "title": "ChocoPY - Google Презентации - Google Chrome",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 17988,
+                "process_name": "chrome.exe",
+                "exe_name": "chrome.exe"
+            },
+            {
+                "handler": 263554,
+                "title": "sso.dzen.ru/install?uuid=738ad9ca-6d46-4b6c-b5df-e563b8c3974c — Личный: Microsoft​ Edge",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 158x26",
+                "pid": 6684,
+                "process_name": "msedge.exe",
+                "exe_name": "msedge.exe"
+            }
+        ],
+        "2025-07-17 13:42:41.043249": [
+            {
+                "handler": 66698,
+                "title": "traffic.json - work - Visual Studio Code",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 1452,
+                "process_name": "Code.exe",
+                "exe_name": "code.exe"
+            },
+            {
+                "handler": 263554,
+                "title": "СВО — последние события, сводки, новости и мнения о спецоперации | Дзен и еще 1 страница — Личный: Microsoft​ Edge",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 6684,
+                "process_name": "msedge.exe",
+                "exe_name": "msedge.exe"
+            },
+            {
+                "handler": 721666,
+                "title": "ChocoPY - Google Презентации - Google Chrome",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 17988,
+                "process_name": "chrome.exe",
+                "exe_name": "chrome.exe"
+            }
+        ],
+        "2025-07-17 13:43:41.121487": [
+            {
+                "handler": 66698,
+                "title": "traffic.json - work - Visual Studio Code",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 1452,
+                "process_name": "Code.exe",
+                "exe_name": "code.exe"
+            },
+            {
+                "handler": 263554,
+                "title": "Интернет-магазин Wildberries: широкий ассортимент товаров - скидки каждый день! и еще 1 страница — Личный: Microsoft​ Edge",
+                "class": "Chrome_WidgetWin_1",
+                "size": "Size: 1477x797",
+                "pid": 6684,
+                "process_name": "msedge.exe",
+                "exe_name": "msedge.exe"
+            }
+        ]
+    }
+}
